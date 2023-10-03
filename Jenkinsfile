@@ -38,10 +38,10 @@ pipeline {
             }
 
         }
-        stage('Deploy') {
-            steps {
-                sh 'java -jar -DServer.port=8001 target/spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar'  
-            }
-        }
+        // stage('Deploy') {
+        //     steps {
+        //         sh 'java -jar -DServer.port=8001 target/spring-petclinic-2.3.1.BUILD-SNAPSHOT.jar'  
+        //     }
+        // }
     }
 }
