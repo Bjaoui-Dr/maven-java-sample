@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   java-app:
-    image: ${IMAGE}
+    image: {IMAGE}
     ports:
       - 8080:8080
   mysql:
